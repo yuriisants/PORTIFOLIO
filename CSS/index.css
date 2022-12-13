@@ -1,7 +1,8 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #696969;
+    align-items: center;
+    background-color:#7f8c8d;
     border-bottom: 10px solid black;
     padding: 10px 20px;
     
@@ -28,9 +29,9 @@ a {
 a::before {
     display: inline-block;      
     content: "";
-    background-color: #ffffff;
-    width: 5px;
-    height: 5px;
+    background-color: #bdc3c7;
+    width: 10px;
+    height: 10px;
     margin-right: 10px;
     vertical-align: middle;
     
@@ -39,10 +40,11 @@ a::before {
 
 #button {
     display: inline-flexbox;
-    background: #474646;
+    background: #bdc3c7;
     padding: 10px 12px;
     box-shadow: 5px 5px 0px black;
     margin-right: 0;
+    
 }
     
     
